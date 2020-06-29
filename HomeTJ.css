@@ -1,0 +1,120 @@
+﻿body{
+	background-image:url('TejuPics/Back2.jpg');
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+}
+
+.container {
+  display: -webkit-box;
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+
+.box1 {
+  -webkit-box-flex: 1;
+          flex: 1;
+  overflow: hidden;
+  -webkit-transition: .5s;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  line-height: 0;
+}
+.box1 > a > img{
+	 opacity: 0.5;
+  border-radius: 30px; 
+  width: 100%;
+  height: calc(100% - 10vh);
+  -o-object-fit: cover;
+  object-fit: cover;
+  -webkit-transition: .5s;
+  transition: .5s;
+	
+}
+
+.box2 {
+  -webkit-box-flex: 1;
+          flex: 1;
+  overflow: hidden;
+  -webkit-transition: .5s;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  line-height: 0;
+}
+.box2 >a> img{
+ opacity: 0.5;
+ border-radius: 30px;
+  width: 100%;
+  height: calc(100% - 10vh);
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: .5s;
+  transition: .5s;
+	
+}
+
+
+.box3 {
+  -webkit-box-flex: 1;
+          flex: 1;
+  overflow: hidden;
+  -webkit-transition: .5s;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  line-height: 0;
+}
+.box3 >a> img{
+ opacity: 0.5;
+ border-radius: 30px;
+   width: 100%;
+  height: calc(100% - 10vh);
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: .5s;
+  transition: .5s;
+  right=0;
+	
+}
+
+
+
+.box1:hover {
+  -webkit-box-flex: 1;
+          flex-direction:column;
+
+}
+
+.box1:hover >a> img {
+	opacity:1;
+  width: 100%;
+  height: 100%;
+}
+
+.box2:hover {
+  -webkit-box-flex: 1;
+    flex-direction:column;
+}
+
+.box2:hover >a> img {
+	
+	opacity:1;
+  width: 100%;
+  height: 100%;
+}
+
+.box3:hover {
+  -webkit-box-flex: 0.5;
+          flex-direction:column;
+          }
+
+.box3:hover >a> img {
+  opacity:1;
+  width: 100%;
+  height: 100%;
+}
